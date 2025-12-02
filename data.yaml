@@ -1,0 +1,15 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names:
+  0: impure
+  1: pure
+
+roboflow:
+  workspace: adarsh-ouoes
+  project: tomato_det-yg4ld
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/adarsh-ouoes/tomato_det-yg4ld/dataset/2
